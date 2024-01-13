@@ -7,7 +7,7 @@ export default function Editor({setText, initialText}) {
     }
 
     return (
-        <textarea id="editor" onChange={handleChange} defaultValue={initialText}></textarea>
+        <textarea id="editor" label="editor" onChange={handleChange} defaultValue={initialText}></textarea>
     )
 }
 
