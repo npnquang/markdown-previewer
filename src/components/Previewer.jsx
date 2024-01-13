@@ -6,7 +6,6 @@ import DOMPurify from "dompurify";
 export default function Previewer({ text }) {
   const parsedHTML = DOMPurify.sanitize(marked.parse(text));
   const  display = parse(parsedHTML);
-  
 
   return (
     <div id="preview">
